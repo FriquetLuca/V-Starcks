@@ -1,0 +1,7 @@
+{
+  "watch": ["pages", "utils", "server", "env"],
+  "ignore": ["./**/*.test.ts"],
+  "ext": "ts,mts,tsx,mjs,js,jsx,json,.env",
+  "exec": "cross-env NODE_ENV=development ts-node ./server",
+  "legacyWatch": true
+}
